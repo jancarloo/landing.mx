@@ -37,22 +37,43 @@
                         </div>
                     </div>
                 </div>
- 
 
                 <div class="col-md-4 detaled-wrap-flex">
+
+                    <div class="jmy_web_contador" data-page="inicio" id="slide2_landing" data-value="<?php $this->pnt('slide2_landing','3'); 
+                     ?>" data-titulo="Inica el número de páginas a mostrar"></div>
+
+
                     <div class="deatiled-phone-wrap reveal fadeIn"> <img src="<?php $this->url_templet(); ?>images/detailed-screen.png" class="phone" alt="#">
-                        <div class="screen">
-                            <div class="screen-slider owl-carousel owl-theme">
-                                <div class="item"><img src="<?php $this->url_templet(); ?>images/screen5.png" alt="#"></div>
-                                <div class="item"><img src="<?php $this->url_templet(); ?>images/screen5.png" alt="#"></div>
-                                <div class="item"><img src="<?php $this->url_templet(); ?>images/screen5.png" alt="#"></div>
+
+                    <?php 
+                        $paginas = $this->pnt('slide2_landing','3',["return"=>true]); 
+                        $contador = 0;
+                        for($i=0;$i<$paginas;$i++){ ?>
+
+                             <div class="<?php $this->pnt('slider_cat_'.$i,'_b'); ?> jmy_web_slider" id="grupo_slider<?php echo $i;?>_b" data-page="inicio" data-marco="service-box" 
+
+                                data-var='[
+                                {"type":"imagen","id":"amamos_slide<?php echo $i;?>_imagen_b","url":"<?php $this->url_templet();?>images/screen5.png"}]'>
+
+
+                                <div class="screen">
+                                    <div class="screen-slider owl-carousel owl-theme">
+                                        <div class="item">
+
+                                            <img id="amamos_slide<?php echo $i; ?>_imagen_b"
+                                            src="<?php $this->pnt( 'amamos_slide'.$i.'_imagen_b', $this->url_templet(["return"=>true]).'images/screen5.png' ); ?>" alt="">
+                                        </div>
+
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
+
+                    <?php } ?>
+                    
+                    </div>   
                 </div>
-
-
-
+                
                 <div class="col-md-4 detailed-icon-wrap">
                     <div class="detailed-block2 reveal fadeInRight"> <span class="pe-primary pe-7s-rocket detailed-icon2"></span>
                             <h4 class="jmy_web_div" data-page="inicio" id="landing2_titulo4">
