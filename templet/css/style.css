@@ -1408,20 +1408,20 @@ textarea {
   margin: 12px 0 0; }
 
 .address-block {
-  margin: 60px 0 0;
+  margin: 30px 0 0;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s; }
   .address-block ul {
     list-style: none;
     padding: 0;
-    margin: 0 0 0 70px; }
+    margin: 0 0 0 50px; }
     .address-block ul li {
       float: left;
       margin: 0 0 0 6px; }
       .address-block ul li a {
-        border: 2px solid #f0f4f6;
-        padding: 7px 14px;
+        border: 1px solid #f0f4f6;
+        padding: 3px 15px;
         color: #2a2e2f; }
         .dark-theme .address-block ul li a {
           color: #f0f4f6;

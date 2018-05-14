@@ -3,6 +3,16 @@
 
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-88161040-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-88161040-1');
+    </script>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +21,7 @@
     <meta name="keywords" content="HTML5, bootstrap, interior, fashion, shopping, responsive">
     <title>Landin Pagé</title>
     <!-- Font --> 
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="<?php $this->url_templet(); ?>https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="<?php $this->url_templet(); ?>vendors/fontawesome/css/font-awesome.min.css">
     <!-- Simple Line Font -->
@@ -51,11 +61,11 @@
                 <div class="col-md-8 col-sm-8 address-block">
                         
                     <ul class="reveal fadeInUp" data-wow-delay="0.9s">                           
-                        <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i> 55 1595 8140</a></li> 
+                        <li class="jmy_web_div"  id="header_telefono" data-page="header" data-editor="no"><a href="#"><i class="fa fa-whatsapp " aria-hidden="true"> </i> <?php $this->pnt( 'header_telefono','55 15958140',["secundario"=>"header"]); ?></a></li> 
                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                         <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                         <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                        <li><a href="#">juancarlos@comsis.mx</a></li> 
+                        <li class="jmy_web_div"  id="header_correo" data-page="header" data-editor="no"><a href="#"><?php $this->pnt( 'header_correo','juancarlos@comsis.mx',["secundario"=>"header"]); ?></a></li> 
                      </ul>
 
                 </div>
