@@ -50,12 +50,12 @@ $(function() {
             message: "required",
         },
         messages: {
-            name: "Your full name please",
+            name: "tu nombre completo por favor",
             email: {
-                required: "Please enter your email address",
-                email: "Please enter a valid email address"
+                required: "Ingresa tu email",
+                email: "Ingresa un email valido"
             },
-            message: "Please enter your message",
+            message: "Ingresa tu mensaje",
         },
         submitHandler: function(form) {
             $jscontactbtn.attr("disabled", true);

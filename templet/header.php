@@ -21,7 +21,7 @@
     <meta name="keywords" content="HTML5, bootstrap, interior, fashion, shopping, responsive">
     <title>Landin Pagé</title>
     <!-- Font --> 
-    <link href="<?php $this->url_templet(); ?>https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="<?php $this->url_templet(); ?>vendors/fontawesome/css/font-awesome.min.css">
     <!-- Simple Line Font -->
@@ -54,7 +54,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <nav class="navbar navbar-expand-lg navbar-light"> <a class="navbar-brand" href="<?php $this->url_inicio(); ?>#"><img src="<?php $this->url_templet(); ?>images/logo2.png" class="img-fluid" alt="logo"></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                    <nav class="navbar navbar-expand-lg navbar-light"> 
+                        <a class="navbar-brand" href="<?php $this->url_inicio(); ?>#">
+                                <img src="<?php $this->url_templet(); ?>images/logo2.png" class="img-fluid" alt="logo">
+                        </a>
                         
                     </nav>
                 </div>

@@ -170,26 +170,29 @@
     </section>
 
      <!--===================== Contact =====================-->
-    <section class="contact" id="contact">
-        <div class="container">
+    <section class="space light-bg">
+        <div class="container light-bg">
             <div class="row">
                 <div class="col-md-8">
-                    <div class="contact-form reveal fadeInUp">
-                        <form id="phpcontactform" action="php/contact.php" method="post">
+                    <div class="reveal fadeInUp">
+                        <form >
                             <div class="row">
-                                <div class="col-md-12">
-                                    <h2 class="center-block mt-4 mb-4">Contact Us</h2>
+                                <div class="col-md-10">
+                                    <h2 class="center-block mt-4 mb-4">Contactanos</h2>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="form-group"> <input type="text" class="form-control" name="name" placeholder="Name"> </div>
+                                    <div class=""> <input class="form-control jmy_web_contacto" data-formulario="contacto_inicio" data-campo="Nombre" name="name" placeholder="Nombre"> </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="form-group"> <input type="email" class="form-control" name="email" placeholder="Email"> </div>
+                                    <div class=""> <input  class="form-control jmy_web_contacto" data-formulario="contacto_inicio" data-campo="Email" name="email" placeholder="Email"> </div>
                                 </div>
                                 <div class="col-md-12">
-                                    <div class="form-group"> <textarea class="form-control" name="message" placeholder="Message" rows="3"></textarea> </div>
-                                      <div class="text-center"> <button type="submit" id="js-contact-btn" class="btn btn-primary mt-4">Send message<span class="pe-7s-angle-right-circle ml-3"></span></button>
-                                        <div id="js-contact-result" data-success-msg="Success, We will get back to you soon" data-error-msg="Oops! Something went wrong"></div>
+                                    <div class=""> <textarea class="form-control jmy_web_contacto" data-formulario="contacto_inicio" data-campo="Mensaje" name="message" placeholder="Message" rows="2"></textarea> </div>
+                                      <div class="text-center">
+
+                                       <button id="contacto_inicio" class="btn btn-primary mt-4 jmy_web_contacto_enviar"  data-formulario="contacto_inicio">Enviar<span class="pe-7s-angle-right-circle ml-3"></span></button>
+
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -210,8 +213,6 @@
                         <ul class="reveal fadeInUp" data-wow-delay="0.9s">
                             <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
                 </div>

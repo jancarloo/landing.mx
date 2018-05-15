@@ -39,5 +39,3 @@
 </body>
 
 </html>
-
-<li ><a href="#"><i class="fa fa-whatsapp " aria-hidden="true"> </i> </a></li> 

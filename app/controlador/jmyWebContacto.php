@@ -9,7 +9,7 @@ if(is_array($datos)){
 		$html = $html."<br> ".$datos[$i]['campo'].": ".$datos[$i]['valor'];
 	}
 
-	$to      = 'jm@comsis.mx';
+	$to      = 'juancarlos@comsis.mx';
 	$subject = "Nuevo contacto" ;
 	$header = "From: noreply@templet.comsis.com\r\n"; 
 	$header.= "MIME-Version: 1.0\r\n"; 
