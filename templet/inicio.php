@@ -8,7 +8,8 @@
                     <div class="slider-title">
                         <h2 class="reveal fadeInUp jmy_web_div" data-page="inicio" id="landing_titulo_slide"><?php $this->pnt('landing_titulo_slide','Create an App Landing Page. No Coding required '); ?>
                         </h2>
-                        <p data-wow-delay="0.3s"  class="reveal fadeInUp jmy_web_div" data-page="inicio" id="landing_texto1"><?php $this->pnt('landing_texto1','You can create custom iOS and macOS apps for your business using Swift, our open source programming language. Apps that have the power to transform workflows, improve client relationships, and boost your productivity.'); ?> </p>
+                        <p data-wow-delay="0.3s"  class="reveal fadeInUp jmy_web_div" data-page="inicio" id="landing_texto1"><?php $this->pnt('landing_texto1','You can create custom iOS and macOS apps for your business using Swift, our open source programming language. Apps that have the power to transform workflows, improve client relationships, and boost your productivity.'); ?> 
+                        </p>
                             <a href="#" class="btn btn-primary mr-2 reveal fadeInUp" data-wow-delay="0.6s">
                             <i class="fa fa-paypal mr-2" aria-hidden="true"></i>Paypal</a> 
                             <a href="#" class="btn btn-success reveal fadeInUp" data-wow-delay="0.9s">
@@ -167,5 +168,56 @@
             </div>
         </div>
     </section>
+
+     <!--===================== Contact =====================-->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="contact-form reveal fadeInUp">
+                        <form id="phpcontactform" action="php/contact.php" method="post">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2 class="center-block mt-4 mb-4">Contact Us</h2>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group"> <input type="text" class="form-control" name="name" placeholder="Name"> </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group"> <input type="email" class="form-control" name="email" placeholder="Email"> </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group"> <textarea class="form-control" name="message" placeholder="Message" rows="3"></textarea> </div>
+                                      <div class="text-center"> <button type="submit" id="js-contact-btn" class="btn btn-primary mt-4">Send message<span class="pe-7s-angle-right-circle ml-3"></span></button>
+                                        <div id="js-contact-result" data-success-msg="Success, We will get back to you soon" data-error-msg="Oops! Something went wrong"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="address-block">
+                        <div class="address reveal fadeInUp"> <span class="pe-7s-map-marker"></span>
+                            <p>481 Boston St. <br> Mountain View, CA 94043</p>
+                        </div>
+                        <div class="address reveal fadeInUp" data-wow-delay="0.3s"> <span class="pe-7s-mail"></span>
+                            <p>sales@appland.com <br> support@appland.com </p>
+                        </div>
+                        <div class="address reveal fadeInUp" data-wow-delay="0.6s"> <span class="pe-7s-call"></span>
+                            <p>+1 (223) 243 1208 <br> +1 (351) 561 7041</p>
+                        </div>
+                        <ul class="reveal fadeInUp" data-wow-delay="0.9s">
+                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//End Contact -->
    
     
