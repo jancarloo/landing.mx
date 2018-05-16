@@ -11,7 +11,14 @@
                         <p data-wow-delay="0.3s"  class="reveal fadeInUp jmy_web_div" data-page="inicio" id="landing_texto1"><?php $this->pnt('landing_texto1','You can create custom iOS and macOS apps for your business using Swift, our open source programming language. Apps that have the power to transform workflows, improve client relationships, and boost your productivity.'); ?> 
                         </p>
                             <a href="#" class="btn btn-primary mr-2 reveal fadeInUp" data-wow-delay="0.6s">
-                            <i class="fa fa-paypal mr-2" aria-hidden="true"></i>Paypal</a> 
+                            
+                                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                    <input type="hidden" name="cmd" value="_s-xclick">
+                                    <input type="hidden" name="hosted_button_id" value="RRDHS99T9CPXW">
+                                    <input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+                                    <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                                </form>
+                                </a> 
                             <a href="#" class="btn btn-success reveal fadeInUp" data-wow-delay="0.9s">
                             <i class="fa fa-whatsapp mr-2" aria-hidden="true"></i>Contactar</a>
 
@@ -163,7 +170,13 @@
                             </p>
                     </div>
                     <a href="#" class="btn btn-primary mr-2 reveal fadeInUp" data-wow-delay="0.6s">
-                    <i class="fa fa-paypal mr-2" aria-hidden="true"></i>Paypal</a> 
+                    <?php /*<i class="fa fa-paypal mr-2" aria-hidden="true"></i>Paypal*/?>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="RRDHS99T9CPXW">
+                    <input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                    </form></a> 
                 </div>
             </div>
         </div>
@@ -178,7 +191,8 @@
                         <form >
                             <div class="row">
                                 <div class="col-md-10">
-                                    <h2 class="center-block mt-4 mb-4">Contactanos</h2>
+                                    <h2 class="center-block mt-4 mb-4 jmy_web_div" data-page="inicio" id="titulo_contacto">
+                            <?php $this->pnt('titulo_contacto','Contactanos'); ?></h2>
                                 </div>
                                 <div class="col-md-6">
                                     <div class=""> <input class="form-control jmy_web_contacto" data-formulario="contacto_inicio" data-campo="Nombre" name="name" placeholder="Nombre"> </div>
@@ -202,13 +216,16 @@
                 <div class="col-md-4">
                     <div class="address-block">
                         <div class="address reveal fadeInUp"> <span class="pe-7s-map-marker"></span>
-                            <p>481 Boston St. <br> Mountain View, CA 94043</p>
+                            <p class="jmy_web_div" data-page="inicio" id="direccion">
+                            <?php $this->pnt('direccion','481 Boston St. <br> Mountain View, CA 94043'); ?></p>
                         </div>
                         <div class="address reveal fadeInUp" data-wow-delay="0.3s"> <span class="pe-7s-mail"></span>
-                            <p>sales@appland.com <br> support@appland.com </p>
+                            <p class="jmy_web_div" data-page="inicio" id="correo">
+                            <?php $this->pnt('correo','sales@appland.com <br> support@appland.com '); ?></p>
                         </div>
                         <div class="address reveal fadeInUp" data-wow-delay="0.6s"> <span class="pe-7s-call"></span>
-                            <p>+1 (223) 243 1208 <br> +1 (351) 561 7041</p>
+                            <p class="jmy_web_div" data-page="inicio" id="telefono">
+                            <?php $this->pnt('telefono','+1 (223) 243 1208 <br> +1 (351) 561 7041'); ?></p>
                         </div>
                         <ul class="reveal fadeInUp" data-wow-delay="0.9s">
                             <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>

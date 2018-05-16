@@ -4,12 +4,12 @@
             <div class="row justify-content-center">
                 <div class="col-md-8 center-block">
                     <p class="jmy_web_div"  id="footer_leyenda" data-page="header" data-editor="no"> <?php $this->pnt( 'footer_leyenda','Copyright © 2017. All rights reserved. Appland Inc',["secundario"=>"header"]); ?> </p> 
-                    <a href="<?php $this->url_inicio(); ?>#" class="jmy_web_div"  id="footer_PRESS" data-page="header" data-editor="no">
+                    <?php /* <a href="<?php $this->url_inicio(); ?>#" class="jmy_web_div"  id="footer_PRESS" data-page="header" data-editor="no">
                         <?php $this->pnt( 'footer_PRESS','PRESS',["secundario"=>"header"]); ?></a>
                     <a  href="<?php $this->url_inicio(); ?>#" class="jmy_web_div"  id="footer_TERMS" data-page="header" data-editor="no">
                     <?php $this->pnt( 'footer_TERMS','TERMS',["secundario"=>"header"]); ?></a>
                     <a href="<?php $this->url_inicio(); ?>#" class="jmy_web_div"  id="footer_PRIVACY" data-page="header" data-editor="no">
-                    <?php $this->pnt( 'footer_PRIVACY','PRIVACY',["secundario"=>"header"]); ?></a>
+                    <?php $this->pnt( 'footer_PRIVACY','PRIVACY',["secundario"=>"header"]); ?></a> */ ?>
                 </div>
             </div>
         </div>
