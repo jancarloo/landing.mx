@@ -70,7 +70,7 @@
                     <ul class="reveal fadeInUp" data-wow-delay="0.9s">                           
                         <li class="jmy_web_div"  id="header_telefono" data-page="header" data-editor="no"><a href="#"><i class="fa fa-whatsapp " aria-hidden="true"> </i> <?php $this->pnt( 'header_telefono','55 15958140',["secundario"=>"header"]); ?></a></li> 
                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <?php // <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> ?>
                         <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                         <li class="jmy_web_div"  id="header_correo" data-page="header" data-editor="no"><a href="#"><?php $this->pnt( 'header_correo','juancarlos@comsis.mx',["secundario"=>"header"]); ?></a></li> 
                      </ul>
