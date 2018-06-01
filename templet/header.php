@@ -73,6 +73,7 @@
                         <?php // <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> ?>
                         <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                         <li class="jmy_web_div"  id="header_correo" data-page="header" data-editor="no"><a href="#"><?php $this->pnt( 'header_correo','juancarlos@comsis.mx',["secundario"=>"header"]); ?></a></li> 
+                        
                      </ul>
 
                 </div>
