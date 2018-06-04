@@ -43,13 +43,15 @@
     <link rel="stylesheet" href="<?php $this->url_templet(); ?>vendors/animate.css">
     <!-- Magnific Po;pup -->
     <link rel="stylesheet" href="<?php $this->url_templet(); ?>vendors/magnific-popup/css/magnific-popup.css"> </head>
-
+ 
 <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WWGPVLQ"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <!-- Load Facebook SDK for JavaScript  icono de messenger-->
+    <!-- Load Facebook SDK for JavaScript  icono de messenger comienza icono de messenger-->
+
+    <p>texto para borrar esta en la linea 54 de header</p>
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
