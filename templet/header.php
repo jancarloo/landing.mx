@@ -80,11 +80,15 @@
             <div class="row">
                 <div class="col-md-4">
                     <nav class="navbar navbar-expand-lg navbar-light"> 
-                        <a class="navbar-brand" href="<?php $this->url_inicio(); ?>#">
-                                <img src="<?php $this->url_templet(); ?>images/logo2.png" class="img-fluid" alt="logo">
-                        </a>
+                        <div id="logo" class="logo">
+                                <div class="jmy_web_slider" id="logo_top" data-page="inicio" data-marco="logo_top" data-var='[{"type":"imagen","id":"logo_top_img","url":"<?php $this->url_templet(); ?>images/logo2.png"}]' ><a href="<?php $this->url_inicio(); ?>"><img alt="" class="img-fluid" title="" id="logo_top_img" src="<?php $this->pnt('logo_top_img',$this->url_templet(['return'=>true]).'images/logo2.png'); ?> "/></a></div>
+                                
+                        </div><!-- /#logo -->
+
+                    
                         
                     </nav>
+
                 </div>
                 <div class="col-md-8 col-sm-8 address-block">
                         
