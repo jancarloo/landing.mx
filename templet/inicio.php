@@ -19,8 +19,8 @@
                                     <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
                                 </form>
                                 </a> 
-                            <a href="#" class="btn btn-success reveal fadeInUp" data-wow-delay="0.9s">
-                            <i class="fa fa-whatsapp mr-2" aria-hidden="true"></i>Contactar</a>
+                            <?php  /* <a href="#" class="btn btn-success reveal fadeInUp" data-wow-delay="0.9s">
+                            <i class="fa fa-whatsapp mr-2" aria-hidden="true"></i>Contactar</a> */ ?>
 
                         <p class="mt-4 text-muted reveal fadeInUp jmy_web_div" data-page="inicio" id="landing_texto2" data-wow-delay="1.2s"><?php $this->pnt('landing_texto2','Version required ios 10 or later, Android Kitkat or later'); ?></p>
                     </div>
@@ -47,15 +47,15 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8 center-block">
-                    <h2 class="mb-4 jmy_web_div" data-page="inicio" id="landing_divisor1_titulo">
+                    <h1 class="mb-4 jmy_web_div" data-page="inicio" id="landing_divisor1_titulo">
                     <?php $this->pnt('landing_divisor1_titulo','Perfect landing page for any App'); ?>
-                    </h2>
+                    </h1>
 
                     <p class="mb-5 jmy_web_div" data-page="inicio" id="landing_divisor1_text">
                     <?php $this->pnt('landing_divisor1_text','You can create custom iOS and macOS apps for your business using Swift, our open source programming language. Apps that have the power to transform workflows, improve client relationships, and boost your productivity.'); ?>
                     </p> 
-                    <a href="#" class="btn btn-success reveal fadeInUp" data-wow-delay="0.9s">
-                    <i class="fa fa-whatsapp mr-2" aria-hidden="true"></i>Contactar</a>
+                   <?php /* <a href="#" class="btn btn-success reveal fadeInUp" data-wow-delay="0.9s">
+                    <i class="fa fa-whatsapp mr-2" aria-hidden="true"></i>Contactar</a>*/ ?>
 
                 </div>
             </div>

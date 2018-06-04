@@ -49,6 +49,25 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WWGPVLQ"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+    <!-- Load Facebook SDK for JavaScript  icono de messenger-->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat"
+      attribution="setup_tool"
+      page_id="253291252082169"
+      theme_color="#0084ff"
+      logged_in_greeting="¡Hola !  Bienvenido a Venta Online ¿En qué podemos ayudarte?"
+      logged_out_greeting="¡Hola !  Bienvenido a Venta Online ¿En qué podemos ayudarte?">
+    </div>
+    <!-- termina icono de messenger -->
     <div id="jmy_web"></div>
     <div id="jmy_web_tools"></div>
 
