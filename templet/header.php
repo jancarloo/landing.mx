@@ -51,7 +51,6 @@
     <!-- End Google Tag Manager (noscript) -->
     <!-- Load Facebook SDK for JavaScript  icono de messenger comienza icono de messenger-->
 
-    <p>texto para borrar esta en la linea 54 de header</p>
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
@@ -93,10 +92,10 @@
                 <div class="col-md-8 col-sm-8 address-block">
                         
                     <ul class="reveal fadeInUp" data-wow-delay="0.9s">                           
-                        <li class="jmy_web_div"  id="header_telefono" data-page="header" data-editor="no"><a href="#"><i class="fa fa-whatsapp " aria-hidden="true"> </i> <?php $this->pnt( 'header_telefono','55 15958140',["secundario"=>"header"]); ?></a></li> 
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li class="jmy_web_div"  id="header_telefono" data-page="header" data-editor="no"><a href=""><i class="fa fa-whatsapp " aria-hidden="true"> </i> <?php $this->pnt( 'header_telefono','55 15958140',["secundario"=>"header"]); ?></a></li> 
+                        <li><a href="https://www.facebook.com/Venta-Online-253291252082169/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                         <?php // <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> ?>
-                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                         <li class="jmy_web_div"  id="header_correo" data-page="header" data-editor="no"><a href="#"><?php $this->pnt( 'header_correo','juancarlos@comsis.mx',["secundario"=>"header"]); ?></a></li> 
                         
                      </ul>

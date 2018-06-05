@@ -16,6 +16,8 @@
                                     <input type="hidden" name="cmd" value="_s-xclick">
                                     <input type="hidden" name="hosted_button_id" value="RRDHS99T9CPXW">
                                     <input type="image" src="https://www.paypalobjects.com/es_XC/MX/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal, la forma más segura y rápida de pagar en línea.">
+
+
                                     <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
                                 </form>
                                 </a> 
@@ -26,12 +28,13 @@
                     </div>
                 </div>
                 <div class="col-md-6 order-md-1">
-                    <div class="phone-wrap reveal fadeIn"> <img src="<?php $this->url_templet(); ?>images/adult-hand-dark.png" class="phone" alt="#">
+                    <div class="phone-wrap reveal fadeIn"> 
+                        <img src="<?php $this->url_templet(); ?>images/adult-hand-dark.png" class="phone" alt="#">
                         <div class="screen">
                             <div class="screen-slider owl-carousel owl-theme">
-                                <div class="item"><img src="<?php $this->url_templet(); ?>images/screen5.png" alt="#"></div>
-                                <div class="item"><img src="<?php $this->url_templet(); ?>images/screen5.png" alt="#"></div>
-                                <div class="item"><img src="<?php $this->url_templet(); ?>images/screen5.png" alt="#"></div>
+                                <div class="item"><img src="<?php $this->url_templet(); ?>images/screen2.png" alt="#"></div>
+                                <div class="item"><img src="<?php $this->url_templet(); ?>images/screen1.png" alt="#"></div>
+                                <div class="item"><img src="<?php $this->url_templet(); ?>images/screen3.png" alt="#"></div>
                             </div>
                         </div>
                     </div>
