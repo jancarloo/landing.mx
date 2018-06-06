@@ -19,7 +19,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Responsive HTML5">
     <meta name="keywords" content="HTML5, bootstrap, interior, fashion, shopping, responsive">
-    <title>Landin Pagé</title>
+    <title>Venta Online</title>
     <!-- Font --> 
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
     <!-- Font Awesome -->
@@ -41,6 +41,7 @@
     <link rel="stylesheet" href="<?php $this->url_templet(); ?>vendors/owlcarousel/css/owl.theme.default.min.css">
     <!-- Animate CSS -->
     <link rel="stylesheet" href="<?php $this->url_templet(); ?>vendors/animate.css">
+    <link rel="icon" type="image/png" href="<?php $this->url_templet(); ?>images/icono.png" />
     <!-- Magnific Po;pup -->
     <link rel="stylesheet" href="<?php $this->url_templet(); ?>vendors/magnific-popup/css/magnific-popup.css"> </head>
  
@@ -94,8 +95,8 @@
                     <ul class="reveal fadeInUp" data-wow-delay="0.9s">                           
                         <li class="jmy_web_div"  id="header_telefono" data-page="header" data-editor="no"><a href=""><i class="fa fa-whatsapp " aria-hidden="true"> </i> <?php $this->pnt( 'header_telefono','55 15958140',["secundario"=>"header"]); ?></a></li> 
                         <li><a href="https://www.facebook.com/Venta-Online-253291252082169/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <?php // <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> ?>
-                        <li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <?php /* <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> 
+                        <li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> */?>
                         <li class="jmy_web_div"  id="header_correo" data-page="header" data-editor="no"><a href="#"><?php $this->pnt( 'header_correo','juancarlos@comsis.mx',["secundario"=>"header"]); ?></a></li> 
                         
                      </ul>
