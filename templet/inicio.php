@@ -125,7 +125,7 @@
                              <div class="<?php $this->pnt('slider_cat_'.$i,'_b'); ?> jmy_web_slider" id="grupo_slider<?php echo $i;?>_b" data-page="inicio" data-marco="service-box" 
 
                                 data-var='[
-                                {"type":"imagen","id":"amamos_slide<?php echo $i;?>_imagen_b","url":"<?php $this->url_templet();?>images/screen5.png"}]'>
+                                {"type":"imagen","id":"amamos_slide<?php echo $i;?>_imagen_b","url":"<?php $this->url_templet();?>images/screen2.png"}]'>
 
 
                                 <div class="screen">
@@ -133,7 +133,7 @@
                                         <div class="item">
 
                                             <img id="amamos_slide<?php echo $i; ?>_imagen_b"
-                                            src="<?php $this->pnt('amamos_slide'.$i.'_imagen_b',$this->url_templet(['return'=>true]).'images/screen5.png' ); ?>" >
+                                            src="<?php $this->pnt('amamos_slide'.$i.'_imagen_b',$this->url_templet(['return'=>true]).'images/screen2.png' ); ?>" >
                                         </div>
 
                                     </div>
