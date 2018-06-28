@@ -1,4 +1,4 @@
-<p>Hola mundo</p>
+
  <!--===================== Sticky parallax Header =====================-->
     <!-- Slider -->
     <section class="slider-bg" id="home">
