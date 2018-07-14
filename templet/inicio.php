@@ -195,13 +195,16 @@
                             <div class="row">
                                 <div class="col-md-10">
                                     <h2 class="center-block mt-4 mb-4 jmy_web_div" data-page="inicio" id="titulo_contacto">
-                            <?php $this->pnt('titulo_contacto','Contactanos'); ?></h2>
+                                        <?php $this->pnt('titulo_contacto','Contactanos'); ?>
+                                    </h2>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class=""> <input class="form-control jmy_web_contacto" data-formulario="contacto_inicio" data-campo="Nombre" name="name" placeholder="Nombre"> </div>
+                                    <div class=""> 
+                                        <input class="form-control jmy_web_contacto" data-formulario="contacto_inicio" data-campo="Nombre" name="name" placeholder="Nombre"> 
+                                    </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class=""> <input  class="form-control jmy_web_contacto" data-formulario="contacto_inicio" data-campo="Email" name="email" placeholder="Email"> </div>
+                                <div class="has-feedback"><i class="fa fa-whatsapp form-control-feedback" aria-hidden="true" style="color:green"></i> <input  class="form-control jmy_web_contacto" data-formulario="contacto_inicio" data-campo="Email" name="email" placeholder="Whatsapp"> </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class=""> <textarea class="form-control jmy_web_contacto" data-formulario="contacto_inicio" data-campo="Mensaje" name="message" placeholder="Message" rows="2"></textarea> </div>
@@ -231,7 +234,16 @@
                             <?php $this->pnt('telefono','+1 (223) 243 1208 <br> +1 (351) 561 7041'); ?></p>
                         </div>
                         <ul class="reveal fadeInUp" data-wow-delay="0.9s">
-                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li>
+                            <a href="<?php 
+		                      $this->pnt( 'face_disenadopor_href', 'https://www.facebook.com/VentaOnlineDF/', ["secundario"=>"header"] ); 
+							?>" title="facebook" class="disenado jmy_web_div" id="face_disenadopor" data-page="header" data-editor="no"><?php 
+		                      $this->pnt( 'face_disenadopor',
+										  '<i class="fa fa-facebook" aria-hidden="true"style="color:#3b5998;"></i>',
+										  ["secundario"=>"header"]
+								); 
+							?></a>
+                            </li>
                             <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                             <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                         </ul>

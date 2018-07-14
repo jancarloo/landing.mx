@@ -43,7 +43,9 @@
     <link rel="stylesheet" href="<?php $this->url_templet(); ?>vendors/animate.css">
     <link rel="icon" type="image/png" href="<?php $this->url_templet(); ?>images/icono.png" />
     <!-- Magnific Po;pup -->
-    <link rel="stylesheet" href="<?php $this->url_templet(); ?>vendors/magnific-popup/css/magnific-popup.css"> </head>
+    <link rel="stylesheet" href="<?php $this->url_templet(); ?>vendors/magnific-popup/css/magnific-popup.css"> 
+     <!-- icono de whatssap -->
+    </head>
  
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -92,15 +94,55 @@
                 </div>
                 <div class="col-md-8 col-sm-8 address-block">
                         
-                    <ul class="reveal fadeInUp" data-wow-delay="0.9s"> <b>                          
-                        <li class="jmy_web_div"  id="header_telefono" data-page="header" data-editor="no"><a href=""><i class="fa fa-whatsapp " aria-hidden="true"> </i> <?php $this->pnt( 'header_telefono','55 15958140',["secundario"=>"header"]); ?></a></li> 
+                <ul class="reveal fadeInUp" data-wow-delay="0.9s"> <b>                   
+                        <div class="col-sm-12">
+                            <li style="font-size:16px; padding:-3px -1px"><i class="fa fa-whatsapp " aria-hidden="true" style="color:green"></i></li>
 
-                        <li><a href="https://www.facebook.com/Venta-Online-253291252082169/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li class="jmy_web_div"  id="header_telefono" data-page="header" data-editor="no" style="padding:0px 0px">
 
-                        <?php /* <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> 
-                        <li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> */?>
+                              <a href="<?php $this->pnt( 'whats_disenadopor_href', '#', ["secundario"=>"header"] ); 
+							?>" title="" class="disenado jmy_web_div" id="whats_disenadopor" data-page="header" data-editor="no"style="">  <?php 
+		                      $this->pnt( 'whats_disenadopor',
+										  '5515958140',
+										  ["secundario"=>"header"]
+								); 
+							?></a>
+                            </li>
+                        </div>
+
+                        <div class="col-sm-12">
+                           
+                           <li>&nbsp;
+                           <a href="<?php 
+                             $this->pnt( 'face_disenadopor_href', 'https://www.facebook.com/VentaOnlineDF/', ["secundario"=>"header"] ); 
+                           ?>" title="" class="disenado jmy_web_div" id="face_disenadopor" data-page="header" data-editor="no"><?php 
+                             $this->pnt( 'face_disenadopor',
+                                         '<i class="fa fa-facebook" aria-hidden="true"style="color:#3b5998;"></i>',
+                                         ["secundario"=>"header"]
+                               ); 
+                           ?></a>
+                           </li> 
+                       </div>
                         
-                        <li class="jmy_web_div"  id="header_correo" data-page="header" data-editor="no"><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i><?php $this->pnt( 'header_correo',' juancarlos@comsis.mx',["secundario"=>"header"]); ?></a></li> 
+                            <?php /* <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> 
+                        <li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li> */?>
+
+                        <div class="col-sm-12">
+                                                  
+                            <li style="font-size:15px; padding: -3px -1px;">  <i class="fa fa-envelope-o" aria-hidden="true"style="color:orange"></i> 
+                             </li>
+                        
+                            <li  class="jmy_web_div"  id="correo_header" data-page="header" data-editor="no" style="padding:0px 0px">                      
+                            <a href="<?php 
+		                      $this->pnt( 'correo_disenadopor_href', '#', ["secundario"=>"header"] ); 
+							?>" title="" class="disenado jmy_web_div" id="correo_disenadopor" data-page="header" data-editor="no"><?php 
+		                      $this->pnt( 'correo_disenadopor',
+										  'juancarlos@comsis.mx',
+										  ["secundario"=>"header"]
+								); 
+                            ?></a>
+                             </li> 
+                        </div>
 </b>
                      </ul>
 
